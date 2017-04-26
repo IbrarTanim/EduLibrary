@@ -4,15 +4,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.educareapps.mylibrary.Animanation;
 import com.educareapps.mylibrary.BaseActivity;
 import com.educareapps.mylibrary.CircularImageView;
-import com.educareapps.mylibrary.CustomToast;
-import com.educareapps.mylibrary.InternetAvailabilityCheck;
+import com.educareapps.mylibrary.CircularTextView;
+import com.educareapps.mylibrary.CommonDialog;
+import com.educareapps.mylibrary.CustomColorSet;
 
 public class MainActivity extends BaseActivity {
     MainActivity activity;
     CircularImageView civTest;
+    CircularTextView cTvTest;
     TextView tvXlS;
 
     @Override
@@ -21,27 +22,29 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         activity = this;
         tvXlS = (TextView) findViewById(R.id.tvXlS);
+        cTvTest = (CircularTextView) findViewById(R.id.cTvTest);
         civTest = (CircularImageView) findViewById(R.id.civTest);
+        cTvTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CustomColorSet.showColorPicker(activity, 1, cTvTest,null);
+            }
+        });
+        tvXlS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CustomColorSet.showColorPicker(activity, 0, null,tvXlS);
+            }
+        });
+
         civTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CustomToast.shortMessage(activity, "Not connected");
+                CommonDialog.generalDialog(activity, "Nothing to say");
 
             }
         });
-        Animanation.zoomOut(civTest);
-        //XLSReader.order(activity,tvXlS);
 
-        if (InternetAvailabilityCheck.getConnectivityStatus(activity) == 0) {
-            CustomToast.shortMessage(activity, "Net not connected");
-        } else if (InternetAvailabilityCheck.getConnectivityStatus(activity) == 1) {
-            CustomToast.shortMessage(activity, "wifi connected");
-        } else if (InternetAvailabilityCheck.getConnectivityStatus(activity) == 1) {
-            CustomToast.shortMessage(activity, "mobile connected");
-        }
-
-        //CustomToast.shortMessage(activity, "Custom Toast Implemented");
-        //CommonDialog.generalDialog(activity, "ABCDEF");
 
     }
 }

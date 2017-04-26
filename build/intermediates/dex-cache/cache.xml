@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="F:\Temporary WorkSpace\EduLibrary\mylibrary\build\intermediates\bundles\default\libs\itextg-5.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="666eaec25e9377c2b9f2cd032020c6bbdcc6a41b">
-        <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\itextg-5.5.8_5f116fe8e85249233c6db69364e3f0e8d853dd30\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\abc\EduLibrary\mylibrary\build\intermediates\bundles\default\libs\jxl.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3375fe1f5382c5234f0bf4d2947fbbe016b4ad65">
-        <dex dex="F:\abc\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\jxl_7b0971023accc1146d53bcea60cf44d48470c809\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -30,21 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\abc\EduLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0451ebc83e86c283960a15a8312ec5bacf85000a">
-        <dex dex="F:\abc\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_464c13e5503a6e9c0bc2b42daefc1b9b6563770c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cab072b6a21bf7883a552ec581a951e040638595">
+        sha1="c0d6e16d716f4e381448dd09faa5c98394a796ff">
         <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b35f15c81f10efe8452336591291f85da8c14a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Temporary WorkSpace\EduLibrary\mylibrary\build\intermediates\bundles\default\libs\itextg-5.5.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="666eaec25e9377c2b9f2cd032020c6bbdcc6a41b">
+        <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\itextg-5.5.8_5f116fe8e85249233c6db69364e3f0e8d853dd30\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -54,24 +36,6 @@
         revision="25.0.2"
         sha1="3375fe1f5382c5234f0bf4d2947fbbe016b4ad65">
         <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\jxl_7af6066ac10e910dc4a545e61ebb98caf00bd026\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\abc\EduLibrary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="F:\abc\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a075656a379862f62e3ddd6a306a694f566172d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\abc\EduLibrary\mylibrary\build\intermediates\bundles\default\libs\itextg-5.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="666eaec25e9377c2b9f2cd032020c6bbdcc6a41b">
-        <dex dex="F:\abc\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\itextg-5.5.8_1c039c5085600051e994b43a658d42a239176ac4\classes.dex" />
     </item>
 
 </items>

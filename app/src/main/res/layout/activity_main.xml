@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.educareapps.edulibrary.MainActivity">
 
+    <com.educareapps.mylibrary.CircularTextView
+        android:id="@+id/cTvTest"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp" />
+
     <TextView
         android:id="@+id/tvXlS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hello World!" />
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textSize="15dp" />
 
     <com.educareapps.mylibrary.CircularImageView
         android:id="@+id/civTest"
