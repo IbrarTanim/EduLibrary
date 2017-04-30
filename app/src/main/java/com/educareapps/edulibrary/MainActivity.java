@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.educareapps.mylibrary.BackgroundMusicService;
 import com.educareapps.mylibrary.BaseActivity;
 import com.educareapps.mylibrary.CircularImageView;
 import com.educareapps.mylibrary.CircularTextView;
@@ -21,9 +22,11 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         activity = this;
+        BackgroundMusicService.startMusic(this);
         tvXlS = (TextView) findViewById(R.id.tvXlS);
         cTvTest = (CircularTextView) findViewById(R.id.cTvTest);
         civTest = (CircularImageView) findViewById(R.id.civTest);
+
         cTvTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

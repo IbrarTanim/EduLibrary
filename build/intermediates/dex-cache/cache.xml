@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0d6e16d716f4e381448dd09faa5c98394a796ff">
-        <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b35f15c81f10efe8452336591291f85da8c14a7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\Temporary WorkSpace\EduLibrary\mylibrary\build\intermediates\bundles\default\libs\itextg-5.5.8.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="666eaec25e9377c2b9f2cd032020c6bbdcc6a41b">
         <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\8\itextg-5.5.8_5f116fe8e85249233c6db69364e3f0e8d853dd30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e45ec3ed0b28b4afbf9ac3055537bff721c72b31">
+        <dex dex="F:\Temporary WorkSpace\EduLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b35f15c81f10efe8452336591291f85da8c14a7\classes.dex" />
     </item>
     <item
         is-multidex="true"
