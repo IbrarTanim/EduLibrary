@@ -22,7 +22,6 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         activity = this;
-        BackgroundMusicService.startMusic(this);
         tvXlS = (TextView) findViewById(R.id.tvXlS);
         cTvTest = (CircularTextView) findViewById(R.id.cTvTest);
         civTest = (CircularImageView) findViewById(R.id.civTest);
@@ -43,6 +42,7 @@ public class MainActivity extends BaseActivity {
         civTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                BackgroundMusicService.startMusic(activity);
                 CommonDialog.generalDialog(activity, "Nothing to say");
 
             }
